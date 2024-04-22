@@ -1,0 +1,43 @@
+Breaking down the code into different layers and explained their roles:
+
+1. Presentation Layer (address_controller.py)
+Responsibility: Handles incoming HTTP requests, interacts with the FastAPI framework,
+                and delegates business logic to the service layer.
+
+Explanation:
+  - `create_address`: Handles POST requests to create a new address.
+  - `update_address`: Handles PUT requests to update an existing address.
+  - `delete_address`: Handles DELETE requests to delete an address.
+  - `get_address`: Handles GET requests to retrieve an address by its ID.
+  - `get_addresses_within_distance`: Handles GET requests to retrieve addresses within a
+                                     given distance from a specified location.
+
+2. Service Layer (address_service.py)
+Responsibility: Implements business logic, interacts with the data access layer (DAO),
+                and encapsulates operations related to addresses.
+
+Explanation:
+  - `add_address`: Adds a new address to the database.
+  - `update_address`: Updates an existing address in the database.
+  - `delete_address`: Deletes an address from the database.
+  - `get_address_by_id`: Retrieves an address by its ID from the database.
+  - `get_addresses_within_distance`: Retrieves addresses within a given distance from a specified location using the DAO.
+
+3. Data Access Layer (address_dao.py)
+Responsibility: Interacts directly with the database, performs CRUD operations on addresses,
+                and encapsulates database interactions.
+
+Explanation:
+  - `create_table`: Creates the `addresses` table if it doesn't exist.
+  - `add_address`: Inserts a new address into the `addresses` table.
+  - `update_address`: Updates an existing address in the `addresses` table.
+  - `delete_address`: Deletes an address from the `addresses` table.
+  - `get_address_by_id`: Retrieves an address by its ID from the `addresses` table.
+  - `get_addresses_within_distance`: Retrieves addresses within a given distance from a specified location using SQL queries.
+
+4. Model Layer (address.py)
+Responsibility: Defines the structure of the Address object and provides data validation.
+
+Explanation:
+    `Address`: Represents an address with fields such as street, city, state, country, postal code,
+               latitude, and longitude. It ensures data validation through Pydantic's BaseModel.
