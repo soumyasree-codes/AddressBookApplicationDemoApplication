@@ -1,0 +1,18 @@
+INFO:root:Creating address.
+INFO:root:Entered in add_address function service layer!
+INFO:root:Address created: street='string' city='string' state='string' country='string' postal_code='string' latitude=-90.0 longitude=-180.0 id=1
+INFO:root:Creating address.
+INFO:root:Entered in add_address function service layer!
+INFO:root:Address created: street='string' city='string' state='string' country='string' postal_code='string' latitude=-90.0 longitude=-180.0 id=2
+INFO:root:Fetching all addresses.
+INFO:root:Entered in get_all_addresses function service layer!
+INFO:root:Creating address.
+INFO:root:Entered in add_address function service layer!
+INFO:root:Address created: street='string' city='string' state='string' country='string' postal_code='string' latitude=-90.0 longitude=-180.0 id=3
+INFO:root:Updating address with ID 1.
+INFO:root:Entered in update_address function service layer!
+INFO:root:Address with ID 1 updated successfully.
+INFO:root:Fetching all addresses.
+INFO:root:Entered in get_all_addresses function service layer!
+INFO:root:Fetching all addresses.
+INFO:root:Entered in get_all_addresses function service layer!

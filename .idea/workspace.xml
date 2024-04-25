@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d69e88f8-8b55-4478-9d70-27d71582ccd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/newProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Architecture_Explanation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/address_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/address_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/address_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address_book.db" beforeDir="false" afterPath="$PROJECT_DIR$/address_book.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/address_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/address_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/address_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/address_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/address_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/address_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "soumyasree-codes"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/soumyasree-codes/newProject.git",
+    "accountId": "44cb48a7-4ec4-4b11-be14-32542170590d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>

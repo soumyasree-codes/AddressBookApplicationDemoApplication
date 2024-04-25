@@ -1,12 +1,15 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, confloat
 
 
-class Address(BaseModel):
-    id: int
+class AddressRequest(BaseModel):
     street: str
     city: str
     state: str
     country: str
     postal_code: str
-    latitude: float
-    longitude: float
+    latitude: confloat(ge=-90, le=90)
+    longitude: confloat(ge=-180, le=180)
+
+
+class AddressResponse(AddressRequest):
+    id: int
